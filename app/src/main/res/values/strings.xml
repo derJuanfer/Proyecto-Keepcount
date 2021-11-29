@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Keepcount</string>
+    <string name="preguntas_frecuentes">Preguntas Frecuentes</string>
+    <string name="cu_les_son_los_permisos_que_debo_otorgar_a_la_app_para_poder_utilizarla">¿Cuáles son los permisos que debo otorgar a la APP para poder utilizarla?</string>
+    <string name="c_mo_funciona_keepcount">¿Cómo funciona keepcount?</string>
+    <string name="keepcount_es_una_aplicaci_n_que_permite_llevar_una_contabilidad_personal_en_la_cual_se_debe_realizar_un_registro_para_poder_acceder_a_todas_sus_funcionalidades_ya_registrado_o_habiendo_iniciado_sesi_n_en_la_app_se_puede_acceder_a_las_interfaces_de_ingresos_para_registrar_el_dinero_que_se_recibe_gastos_para_registrar_todas_las_compras_que_realice_y_ver_registros_para_tener_acceso_a_todas_las_transacciones_registradas_en_la_app_adem_s_puede_revisar_los_datos_registrados_en_su_cuenta_y_modificar_alguno_si_lo_desea_ver_la_secci_n_de_preguntas_frecuentes_y_por_ltimo_cerrar_sesi_n_en_keepcount">Keepcount es una aplicación que permite llevar una contabilidad personal, en la cual se debe realizar un registro para poder acceder a todas sus funcionalidades, ya registrado o habiendo iniciado sesión en la App, se puede acceder a las interfaces de Ingresos (para registrar el dinero que se recibe), gastos (para registrar todas las compras que realice) y ver registros (para tener acceso a todas las transacciones registradas en la App). Además, puede revisar los datos registrados en su cuenta y modificar alguno si lo desea, ver la sección de preguntas frecuentes y, por último, cerrar sesión en Keepcount.</string>
+    <string name="acceso_a_la_ubicaci_n_del_dispositivo_encender_el_gps_acceso_a_la_c_mara_y_tratamiento_de_datos_personales_de_acuerdo_con_la_ley_1581_de_2012">Acceso a la ubicación del dispositivo (encender el GPS), acceso a la cámara y tratamiento de datos personales de acuerdo con la Ley 1581 de 2012.</string>
+    <string name="_1_c_mo_funciona_keepcount">1. ¿Cómo funciona keepcount?</string>
+    <string name="_2_cu_les_son_los_permisos_que_debo_otorgar_a_la_app_para_poder_utilizarla">2. ¿Cuáles son los permisos que debo otorgar a la APP para poder utilizarla?</string>
+    <string name="_3_c_mo_puedo_ponerme_en_contacto_con_ustedes">3. ¿Cómo puedo ponerme en contacto con ustedes?</string>
+    <string name="acceso_a_la_ubicaci_n_del_dispositivo_encender_el_gps_acceso_a_la_c_mara_almacenamiento_y_tratamiento_de_datos_personales_de_acuerdo_con_la_ley_1581_de_2012">Acceso a la ubicación del dispositivo (encender el GPS), acceso a la cámara, almacenamiento y tratamiento de datos personales de acuerdo con la Ley 1581 de 2012.</string>
+    <string name="_4_ofrecen_atenci_n_al_cliente">4. ¿Ofrecen atención al cliente?</string>
+    <string name="mediante_el_correo_de_soporte_keepcountg4_gmail_com">Mediante el correo de soporte keepcountg4@gmail.com.</string>
+    <string name="si_por_medio_de_la_misma_direcci_n_de_correo_electr_nico_de_contacto_puede_realizar_cualquier_solicitud_keepcountg4_gmail_com">Si, por medio de la misma dirección de correo electrónico de contacto puede realizar cualquier solicitud: keepcountg4@gmail.com.</string>
+    <string name="_5_qui_n_va_a_tener_acceso_a_la_informaci_n_que_suministre_en_la_app">5. ¿Quién va a tener acceso a la información que suministre en la APP?</string>
+    <string name="la_informaci_n_va_a_ser_almacenada_en_una_base_de_datos_que_no_va_a_ser_compartida_con_terceros">La información va a ser almacenada en una base de datos que no va a ser compartida con terceros.</string>
+    <string name="_6_de_d_nde_son_ustedes">6. ¿De dónde son ustedes?</string>
+    <string name="de_diferentes_ciudades_de_colombia">De diferentes ciudades de Colombia.</string>
+    <string name="_7_qui_n_est_detr_s_del_proyecto">7. ¿Quién está detrás del proyecto?</string>
+    <string name="somos_un_grupo_de_estudiantes_en_modalidad_virtual_de_la_universidad_tecnol_gica_de_pereira_utp_del_programa_de_formaci_n_en_programaci_n_del_ministerio_de_las_tic_llamado_misi_n_tic_2022">Somos un grupo de estudiantes en modalidad virtual de la Universidad Tecnológica de Pereira (UTP) del programa de formación en programación del Ministerio de las TIC, llamado Misión TIC 2022.</string>
+    <string name="_8_por_qu_se_realiz_esta_app">8. ¿Por qué se realizó esta APP?</string>
+    <string name="se_realiz_como_proyecto_final_del_ciclo_de_desarrollo_m_vil_para_dar_soluci_n_al_problema_de_cada_persona_que_no_cuenta_con_una_herramienta_que_sea_f_cil_de_usar_para_llevar_su_contabilidad_personal_y_sin_tener_conocimientos_previos_sobre_el_tema_contable">Se realizó como proyecto final del ciclo de desarrollo móvil, para dar solución al problema de cada persona que no cuenta con una herramienta que sea fácil de usar para llevar su contabilidad personal y sin tener conocimientos previos sobre el tema contable.</string>
+    <string name="seleccione_la_pregunta_deseada_para_ver_su_respuesta">Seleccione la pregunta deseada para ver su respuesta</string>
+    <string name="title_activity_cuenta">CuentaActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="correo_registrado">Correo registrado:</string>
+    <string name="mi_cuenta">Mi Cuenta</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="tipo_de_cuenta">Tipo de cuenta:</string>
 </resources>
