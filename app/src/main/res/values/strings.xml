@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Keepcount</string>
+    <string name="tWelcome">BIENVENIDO USUARIO:</string>
+    <string name="tRights">Cilo 4-Grupo 5-Equipo 4 (2021)</string>
+    <string name="tLogin">Inicio sesión</string>
+    <string name="tRegister">Registrarme</string>
+    <string name="tFAQ">FAQ</string>
+    <string name="tDescriptionW">Imagen bienvenida</string>
     <string name="preguntas_frecuentes">Preguntas Frecuentes</string>
     <string name="cu_les_son_los_permisos_que_debo_otorgar_a_la_app_para_poder_utilizarla">¿Cuáles son los permisos que debo otorgar a la APP para poder utilizarla?</string>
     <string name="c_mo_funciona_keepcount">¿Cómo funciona keepcount?</string>
