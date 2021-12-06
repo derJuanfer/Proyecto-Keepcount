@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Keepcount">
         <activity
+<<<<<<< HEAD
             android:name=".Egresos"
             android:exported="false" />
         <activity
             android:name=".Ingresos"
+=======
+            android:name=".IngresosActivity"
+>>>>>>> master
             android:exported="false" />
         <activity
             android:name=".Login"

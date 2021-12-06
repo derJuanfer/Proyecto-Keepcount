@@ -5,9 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
+    tools:context=".LoginActivity"
     android:background="#10316B">
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="227dp"
@@ -25,6 +26,40 @@
         android:id="@+id/textView5"
         android:layout_width="337dp"
         android:layout_height="48dp"
+=======
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_rounded"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+>>>>>>> master
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="#DEE1EC"
@@ -33,6 +68,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,6 +78,17 @@
         android:id="@+id/textView6"
         android:layout_width="337dp"
         android:layout_height="48dp"
+=======
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+>>>>>>> master
         android:layout_marginStart="32dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="32dp"
@@ -57,11 +104,19 @@
         app:layout_constraintVertical_bias="0.083" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/buttonRegisterFinish"
         android:layout_width="150dp"
         android:layout_height="57dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="52dp"
+=======
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+>>>>>>> master
         android:layout_marginEnd="32dp"
         android:background="@drawable/button_rounded_border"
         android:clickable="true"
@@ -69,7 +124,11 @@
         android:text="Crear"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.579"
+=======
+        app:layout_constraintHorizontal_bias="1.0"
+>>>>>>> master
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
