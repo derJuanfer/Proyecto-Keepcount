@@ -1,5 +1,6 @@
 package com.proyectoutp.keepcount;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -133,5 +134,10 @@ public class FAQ extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void goToMainActivity(View view) {
+        Intent intentMainActivity = new Intent(this, MainActivity.class);
+        startActivity(intentMainActivity);
     }
 }

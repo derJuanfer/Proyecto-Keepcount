@@ -18,4 +18,8 @@ public class MiCuentaActivity extends AppCompatActivity {
         Intent intentLogin = new Intent(this, Login.class);
         startActivity(intentLogin);
     }
+    public void goToMainActivity(View view) {
+        Intent intentMainActivity = new Intent(this, MainActivity.class);
+        startActivity(intentMainActivity);
+    }
 }

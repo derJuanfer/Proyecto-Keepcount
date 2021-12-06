@@ -10,22 +10,24 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class Ingresos extends AppCompatActivity {
 
     private EditText etNumberOne;
     private EditText etNumberTwo;
+    private EditText etDescr;
     private TextView tvResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ingresos);
     }
 
     public void calcularSaldo(View view) {
 
         etNumberOne = (EditText) findViewById(R.id.etNumberOne);
         etNumberTwo = findViewById(R.id.etNumberTwo);
+        etDescr = findViewById(R.id.etDescr);
         tvResult = findViewById(R.id.tvResult);
 
         String strNumberOne = etNumberOne.getText().toString();
@@ -35,35 +37,26 @@ public class MainActivity extends AppCompatActivity {
             double numberOne = Double.parseDouble(strNumberOne);
             double numberTwo = Double.parseDouble(strNumberTwo);
 
-            double substract = (numberOne - numberTwo );
+            double add = (numberOne + numberTwo );
 
-            String result = String.format("Saldo = %1$s ", String.valueOf(substract));
+            String result = String.format("Total = %1$s ", String.valueOf(add));
 
             tvResult.setText(result);
         } else {
-            Toast.makeText(this, "Debe ingresar ambos valores", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Debe ingresar al menos un valor y 0 en el otro", Toast.LENGTH_LONG).show();
         }
 
     }
 
-    public void goToFAQ(View view) {
-        Intent intentFAQ = new Intent(this, FAQ.class);
-        startActivity(intentFAQ);
+    public void limpiarFormulario(View view) {
+        etNumberOne.setText("");
+        etNumberTwo.setText("");
+        etDescr.setText("");
+        tvResult.setText("");
     }
 
-    public void goToIngresos(View view) {
-        Intent intentIngresos = new Intent(this, Ingresos.class);
-        startActivity(intentIngresos);
+    public void goToMainActivity(View view) {
+        Intent intentMainActivity = new Intent(this, MainActivity.class);
+        startActivity(intentMainActivity);
     }
-
-    public void goToEgresos(View view) {
-        Intent intentEgresos = new Intent(this, Egresos.class);
-        startActivity(intentEgresos);
-    }
-
-    public void goToMiCuentaActivity(View view) {
-        Intent intentMiCuentaActivity = new Intent(this, MiCuentaActivity.class);
-        startActivity(intentMiCuentaActivity);
-    }
-
 }
