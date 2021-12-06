@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.083" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRegisterFinish"
         android:layout_width="150dp"
         android:layout_height="57dp"
         android:layout_marginStart="32dp"
@@ -74,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonRegisterCancel"
         android:layout_width="150dp"
         android:layout_height="57dp"
         android:layout_marginStart="32dp"
